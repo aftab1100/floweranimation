@@ -1,0 +1,160 @@
+.parente {
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    position: relative;
+
+    /*animation section*/
+    animation: floweranimation 10s linear 0.5s infinite;
+  }
+  @keyframes floweranimation {
+    to {
+      transform: rotateZ(0deg);
+    }
+    from {
+      transform: rotateZ(359deg);
+    }
+  }
+  .parente > div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .common {
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    opacity: 0.5;
+    transform-origin: right bottom;
+  }
+  .leaf1 {
+    background-color: orange;
+    transform: rotateZ(0deg);
+  }
+  .leaf2 {
+    background-color: aquamarine;
+    transform: rotateZ(11.25deg);
+  }
+
+  .leaf4 {
+    background-color: rgb(190, 113, 213);
+    transform: rotateZ(22.5deg);
+  }
+  .leaf5 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(33.75deg);
+  }
+  .leaf6 {
+    background-color: rgb(54, 38, 39);
+    transform: rotateZ(45deg);
+  }
+  .leaf7 {
+    background-color: rgb(107, 238, 160);
+    transform: rotateZ(56.25deg);
+  }
+  .leaf8 {
+    background-color: rgb(189, 238, 90);
+    transform: rotateZ(67.5deg);
+  }
+  .leaf9 {
+    background-color: rgb(36, 64, 123);
+    transform: rotateZ(78.75deg);
+  }
+  .leaf10 {
+    background-color: rgb(239, 63, 213);
+    transform: rotateZ(90deg);
+  }
+
+  .leaf11 {
+    background-color: rgb(239, 174, 213);
+    transform: rotateZ(101.25deg);
+  }
+  .leaf12 {
+    background-color: rgb(110, 9, 81);
+    transform: rotateZ(112.5deg);
+  }
+  .leaf13 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(123.75deg);
+  }
+  .leaf14 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(135deg);
+  }
+  .leaf15 {
+    background-color: rgb(236, 13, 162);
+    transform: rotateZ(146.25deg);
+  }
+  .leaf16 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(157.5deg);
+  }
+  .leaf17 {
+    background-color: rgb(179, 238, 51);
+    transform: rotateZ(168.75deg);
+  }
+  .leaf18 {
+    background-color: rgb(57, 233, 174);
+    transform: rotateZ(180deg);
+  }
+  .leaf19 {
+    background-color: rgb(56, 109, 221);
+    transform: rotateZ(191.25deg);
+  }
+  .leaf20 {
+    background-color: rgb(174, 39, 242);
+    transform: rotateZ(202.5deg);
+  }
+  .leaf21 {
+    background-color: rgb(178, 232, 40);
+    transform: rotateZ(213.75deg);
+  }
+  .leaf22 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(224deg);
+  }
+  .leaf23 {
+    background-color: rgb(33, 190, 217);
+    transform: rotateZ(235.25deg);
+  }
+  .leaf23 {
+    background-color: rgb(234, 112, 42);
+    transform: rotateZ(246.5deg);
+  }
+  .leaf24 {
+    background-color: rgb(236, 198, 33);
+    transform: rotateZ(257.75deg);
+  }
+  .leaf25 {
+    background-color: rgb(158, 73, 77);
+    transform: rotateZ(269deg);
+  }
+  .leaf26 {
+    background-color: rgba(78, 122, 233, 0.278);
+    transform: rotateZ(280.25deg);
+  }
+  .leaf27 {
+    background-color: rgb(131, 49, 219);
+    transform: rotateZ(291.5deg);
+  }
+  .leaf28 {
+    background-color: rgb(232, 187, 52);
+    transform: rotateZ(302.75deg);
+  }
+  .leaf29 {
+    background-color: rgb(68, 76, 122);
+    transform: rotateZ(314deg);
+  }
+  .leaf30 {
+    background-color: rgb(52, 226, 78);
+    transform: rotateZ(325.25deg);
+  }
+  .leaf31 {
+    background-color: rgb(77, 69, 237);
+    transform: rotateZ(336.75deg);
+  }
+  .leaf32 {
+    background-color: rgb(121, 216, 44);
+    transform: rotateZ(348deg);
+  }
